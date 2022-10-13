@@ -19,11 +19,8 @@ header {
   padding: 1rem;
   display: flex;
   justify-content: space-around;
-  align-items: baseline;
-  background-color: var(--secondary-color);
-}
-header h1{
   align-items: center;
+  background-color: var(--secondary-color);
 }
 
 .search {
