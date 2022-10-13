@@ -6,7 +6,7 @@ const main = document.getElementById('main')
 const form = document.getElementById('form')
 const search = document.getElementById('search')
 
-// Get initial movies
+
 getMovies(API_URL)
 
 async function getMovies(url) {
@@ -42,11 +42,11 @@ function showMovies(movies) {
 
 function getClassByRate(vote) {
     if(vote >= 8) {
-        return 'green'
+        return 'yellow'
     } else if(vote >= 5) {
         return 'orange'
     } else {
-        return 'red'
+        return 'green'
     }
 }
 
